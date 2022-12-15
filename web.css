@@ -9,6 +9,12 @@ for final hands-on exam*/
 
 .main
 {
+    width : 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, 
+    rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;;
 
 }
 
@@ -78,6 +84,9 @@ for final hands-on exam*/
 
 .search
 {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
  
 }
 
@@ -119,11 +128,13 @@ for final hands-on exam*/
 .btn:focus
 {
     outline: none;
+    outline-offset: 0cm;
 }
 
 .content
 {
-
+    width: 1200px;
+    height: auto;
     margin: auto;
     color: #FFF;
     position: relative;
@@ -131,7 +142,11 @@ for final hands-on exam*/
 
 .content .par
 {
-
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
 }
 
 .content h1
